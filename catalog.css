@@ -57,6 +57,11 @@ h2 {
     font-weight: 600;
     color: var(--color-title)
 }
+h3 {
+    color: var(--color-terracotta);
+    text-transform: uppercase;
+    font-weight: 600;
+}
 p {
     color: var(--color-text);
 }
