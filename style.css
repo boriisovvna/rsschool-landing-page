@@ -101,6 +101,10 @@ header {
 .logo__long {
     font-size: clamp(1rem, 1.5vw, 2rem);
 }
+.nav-theme {
+    display: flex;
+    gap: 2rem;
+}
 .nav__list {
     display: flex;
     list-style: none;
@@ -410,10 +414,7 @@ header {
         max-width: 100%;
     }
 }
-@media (max-width: 730px) {
-    .container {
-        max-width: 90%;
-    }
+@media (max-width: 768px) {
     nav {
         display: none;
     }
@@ -422,6 +423,11 @@ header {
         flex-direction: column;
         justify-content: space-between;
         gap: 1rem;
+    }
+}
+@media (max-width: 730px) {
+    .container {
+        max-width: 90%;
     }
     .sandra__content,
     .marsik__content,
