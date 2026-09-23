@@ -130,7 +130,7 @@ header {
     display: none;  
 }
 .burger-menu span {
-    background-color: var(--color-dark);
+    background-color: var(--color-brown);
     width: 50px;
     height: 3px;
 }
