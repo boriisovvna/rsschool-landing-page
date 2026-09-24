@@ -32,9 +32,9 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <button class="light-dark-button">
+                    <button class="light-dark-button" type="button" aria-label="Switch color theme">
                         <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)" fill="#54463d">
+                            <g clip-path="url(#a)">
                                 <path d="M12 0a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1ZM4.929 3.515a1 1 0 0 0-1.414 1.414l2.828 2.828a1 1 0 0 0 1.414-1.414L4.93 3.515ZM1 11a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2H1ZM18 12a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1ZM17.657 16.243a1 1 0 0 0-1.414 1.414l2.828 2.828a1 1 0 1 0 1.414-1.414l-2.828-2.828ZM7.757 17.657a1 1 0 1 0-1.414-1.414L3.515 19.07a1 1 0 1 0 1.414 1.414l2.828-2.828ZM20.485 4.929a1 1 0 0 0-1.414-1.414l-2.828 2.828a1 1 0 1 0 1.414 1.414l2.828-2.828ZM13 19a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0v-4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z"/>
                             </g>
                             <defs>
@@ -48,111 +48,113 @@
             </div>
         </div>
     </header>
-    <section class="catalog-header">
-        <div class="container">
-            <div class="catalog-header__content">
-                <h1 class="catalog-header__title">Cat catalog</h1>
-                <h2>Little things for happy cats.</h2>
-                <p class="catalog-header__subtitle">Practical, cozy and stylish essentials for Sandra and Marsik - and for your cats too.</p>
-            </div>
-        </div>
-    </section>
-    <section class="catalog">
-        <div class="container">
-            <div class="catalog__content">
-                <h3>Choose the best🐾</h3>
-                <div class="catalog__buttons">
-                    <button class="button active-button" type="button">All</button>
-                    <button class="button" type="button">Food & Bowls</button>
-                    <button class="button" type="button">Toys</button>
-                    <button class="button" type="button">Cozy Home</button>
-                    <button class="button" type="button">Grooming</button>
+    <main class="main">
+        <section class="catalog-header">
+            <div class="container">
+                <div class="catalog-header__content">
+                    <h1 class="catalog-header__title">Cat catalog</h1>
+                    <h2>Little things for happy cats.</h2>
+                    <p class="catalog-header__subtitle">Practical, cozy and stylish essentials for Sandra and Marsik - and for your cats too.</p>
                 </div>
-                <div class="catalog__cards">
-                    <div class="card">
-                        <img src="img/catalog/soft-cat-bed.png" alt="cat-bed">
-                        <p class="card-type">Cozy Home</p>
-                        <p>Cat Bed Cozy</p>
-                        <p>$45</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/interactive-mouse.png" alt="mouse-toy">
-                        <p class="card-type">Toys</p>
-                        <p>Mouse Toy</p>
-                        <p>$5</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/ceramic-cat-bowl.png" alt="cat-bowl">
-                        <p class="card-type">Food&Bowls</p>
-                        <p>Ceramic Bowl</p>
-                        <p>$11</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/grooming-brush.png" alt="grooming-brush">
-                        <p class="card-type">Grooming</p>
-                        <p>Grooming Brush</p>
-                        <p>$22</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/cat-tunnel.png" alt="cat-tunnel">
-                        <p class="card-type">Toys</p>
-                        <p>Cat Tunnel</p>
-                        <p>$30</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/nail-clippers.png" alt="nail-clippers">
-                        <p class="card-type">Grooming</p>
-                        <p>Nail Clippers</p>
-                        <p>$25</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/automatic-water-fountain.png" alt="water-fountain">
-                        <p class="card-type">Food&Bowls</p>
-                        <p>Water Fountain</p>
-                        <p>$60</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/cozy-cat-blanket.png" alt="cat-blanket">
-                        <p class="card-type">Cozy Home</p>
-                        <p>Cat Blanket</p>
-                        <p>$24</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/cat-self-grooming-brush.png" alt="cat-brush">
-                        <p class="card-type">Grooming</p>
-                        <p>Cat Self Grooming Brush</p>
-                        <p>$30</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/elevated-food-bowl.png" alt="cat-bowl-elevated">
-                        <p class="card-type">Food&Bowls</p>
-                        <p>Elevated Food Bowl</p>
-                        <p>$12</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/window-hammack.png" alt="window-hammack">
-                        <p class="card-type">Cozy Home</p>
-                        <p>Window Hammock</p>
-                        <p>$20</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/catalog/feather-wand.png" alt="feather-wand">
-                        <p class="card-type">Toys</p>
-                        <p>Feather Wand</p>
-                        <p>$10</p>
-                    </div>
-                </div>
-                <button class="show-more" type="button">Show more</button>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__content">
+                    <h3>Choose the best🐾</h3>
+                    <div class="catalog__buttons">
+                        <button class="button active-button" type="button">All</button>
+                        <button class="button" type="button">Food & Bowls</button>
+                        <button class="button" type="button">Toys</button>
+                        <button class="button" type="button">Cozy Home</button>
+                        <button class="button" type="button">Grooming</button>
+                    </div>
+                    <div class="catalog__cards">
+                        <div class="card">
+                            <img src="img/catalog/soft-cat-bed.png" alt="cat-bed">
+                            <p class="card-type">Cozy Home</p>
+                            <p>Cat Bed Cozy</p>
+                            <p>$45</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/interactive-mouse.png" alt="mouse-toy">
+                            <p class="card-type">Toys</p>
+                            <p>Mouse Toy</p>
+                            <p>$5</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/ceramic-cat-bowl.png" alt="cat-bowl">
+                            <p class="card-type">Food&Bowls</p>
+                            <p>Ceramic Bowl</p>
+                            <p>$11</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/grooming-brush.png" alt="grooming-brush">
+                            <p class="card-type">Grooming</p>
+                            <p>Grooming Brush</p>
+                            <p>$22</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/cat-tunnel.png" alt="cat-tunnel">
+                            <p class="card-type">Toys</p>
+                            <p>Cat Tunnel</p>
+                            <p>$30</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/nail-clippers.png" alt="nail-clippers">
+                            <p class="card-type">Grooming</p>
+                            <p>Nail Clippers</p>
+                            <p>$25</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/automatic-water-fountain.png" alt="water-fountain">
+                            <p class="card-type">Food&Bowls</p>
+                            <p>Water Fountain</p>
+                            <p>$60</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/cozy-cat-blanket.png" alt="cat-blanket">
+                            <p class="card-type">Cozy Home</p>
+                            <p>Cat Blanket</p>
+                            <p>$24</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/cat-self-grooming-brush.png" alt="cat-brush">
+                            <p class="card-type">Grooming</p>
+                            <p>Cat Self Grooming Brush</p>
+                            <p>$30</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/elevated-food-bowl.png" alt="cat-bowl-elevated">
+                            <p class="card-type">Food&Bowls</p>
+                            <p>Elevated Food Bowl</p>
+                            <p>$12</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/window-hammack.png" alt="window-hammack">
+                            <p class="card-type">Cozy Home</p>
+                            <p>Window Hammock</p>
+                            <p>$20</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/catalog/feather-wand.png" alt="feather-wand">
+                            <p class="card-type">Toys</p>
+                            <p>Feather Wand</p>
+                            <p>$10</p>
+                        </div>
+                    </div>
+                    <button class="show-more" type="button">Show more</button>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__content">
                 <p class="footer__year">© 2026</p>
                 <p class="footer__about">A little website about two very loved cats🧡</p>
                 <div class="footer__links">
-                    <a class="link" href="mailto:boriisovvna@gmail.com">
+                    <a class="link" href="mailto:boriisovvna@gmail.com" aria-label="Gmail">
                         <svg fill="#f7f3ee" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <g data-name="Layer 2">
                                 <g data-name="email"> 
@@ -162,12 +164,12 @@
                             </g>
                         </svg>
                     </a>
-                    <a class="link" href="https://github.com/boriisovvna">
+                    <a class="link" href="https://github.com/boriisovvna" aria-label="Github">
                         <svg width="40px" height="40px" viewBox="0 0 24 24" fill="#f7f3ee" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.1625 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 19.9875 9.5125 19.15C7 19.6125 6.35 18.5375 6.15 17.975C6.0375 17.6875 5.55 16.8 5.125 16.5625C4.775 16.375 4.275 15.9125 5.1125 15.9C5.9 15.8875 6.4625 16.625 6.65 16.925C7.55 18.4375 8.9875 18.0125 9.5625 17.75C9.65 17.1 9.9125 16.6625 10.2 16.4125C7.975 16.1625 5.65 15.3 5.65 11.475C5.65 10.3875 6.0375 9.4875 6.675 8.7875C6.575 8.5375 6.225 7.5125 6.775 6.1375C6.775 6.1375 7.6125 5.875 9.525 7.1625C10.325 6.9375 11.175 6.825 12.025 6.825C12.875 6.825 13.725 6.9375 14.525 7.1625C16.4375 5.8625 17.275 6.1375 17.275 6.1375C17.825 7.5125 17.475 8.5375 17.375 8.7875C18.0125 9.4875 18.4 10.375 18.4 11.475C18.4 15.3125 16.0625 16.1625 13.8375 16.4125C14.2 16.725 14.5125 17.325 14.5125 18.2625C14.5125 19.6 14.5 20.675 14.5 21.0125C14.5 21.275 14.6875 21.5875 15.1875 21.4875C17.1727 20.8173 18.8977 19.5415 20.1198 17.8395C21.3419 16.1376 21.9995 14.0953 22 12C22 6.475 17.525 2 12 2Z" stroke="#f7f3ee" stroke-linejoin="round"/>
                         </svg>
                     </a>
-                    <a class="link" href="https://t.me/boriisovvna">
+                    <a class="link" href="https://t.me/boriisovvna" aria-label="Telegram">
                         <svg width="40px" height="40px" viewBox="0 0 48 48" fill="#f7f3ee" xmlns="http://www.w3.org/2000/svg">
                             <path d="M41.4193 7.30899C41.4193 7.30899 45.3046 5.79399 44.9808 9.47328C44.8729 10.9883 43.9016 16.2908 43.1461 22.0262L40.5559 39.0159C40.5559 39.0159 40.3401 41.5048 38.3974 41.9377C36.4547 42.3705 33.5408 40.4227 33.0011 39.9898C32.5694 39.6652 24.9068 34.7955 22.2086 32.4148C21.4531 31.7655 20.5897 30.4669 22.3165 28.9519L33.6487 18.1305C34.9438 16.8319 36.2389 13.8019 30.8426 17.4812L15.7331 27.7616C15.7331 27.7616 14.0063 28.8437 10.7686 27.8698L3.75342 25.7055C3.75342 25.7055 1.16321 24.0823 5.58815 22.459C16.3807 17.3729 29.6555 12.1786 41.4193 7.30899Z" fill="#f7f3ee"/>
                         </svg>

@@ -140,6 +140,9 @@ header {
     cursor: pointer;
     transition: 0.3s ease;
 }
+.light-dark-button svg g {
+    fill: var(--color-brown);
+}
 .light-dark-button:hover svg g {
     fill: var(--color-terracotta);
 }
